@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: prisoner-content-hub
+  description: Everything related to in-cell prisoner wellbeing
+  links:
+    - url: https://github.com/ministryofjustice/prisoner-content-hub
+      title: Domain home
+      icon: github
+    - url: https://dsdmoj.atlassian.net/wiki/spaces/HUB
+      title: Prisoner Content Hub Confluence
+      icon: map
+
+spec:
+  owner: prisoner-wellbeing
