@@ -7,6 +7,10 @@ metadata:
     - drupal
     - content
     - rest
+  links:
+    - url: https://github.com/ministryofjustice/prisoner-content-hub-backend
+      title: GitHub Repo
+      icon: github
 spec:
   type: openapi
   lifecycle: production
