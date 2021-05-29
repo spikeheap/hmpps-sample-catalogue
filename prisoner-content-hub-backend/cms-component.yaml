@@ -16,6 +16,6 @@ spec:
   type: service
   lifecycle: experimental
   owner: group:prisoner-content-hub
-  #  providesApis:
-    #    - prisoner-content-api
+  providesApis:
+    - prisoner-content-api
 
