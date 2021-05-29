@@ -5,4 +5,4 @@ metadata:
   description: A collection of all Components
 spec:
   targets:
-    - ./prisoner-content-hub-backend/cms.yaml
+    - ./prisoner-content-hub-backend/cms-component.yaml
