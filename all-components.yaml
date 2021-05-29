@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: example-components
+  description: A collection of all Components
+spec:
+  targets:
+    - ./prisoner-content-hub-backend/cms.yaml
