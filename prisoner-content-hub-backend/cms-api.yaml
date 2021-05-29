@@ -11,5 +11,5 @@ spec:
   type: openapi
   lifecycle: production
   owner: prisoner-content-hub
-  definition:
-    $text: https://github.com/APIs-guru/openapi-directory/blob/dab6854d4d599aafb0eb36e6c7ae1fe0c37509b7/APIs/spotify.com/2021.4.2/openapi.yaml
+  definition: |
+    This is a test. We could pull this content from a Swagger doc, or GitHub readme.
