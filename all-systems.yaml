@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: hmpps-components
+  description: A collection of all Systems
+spec:
+  targets:
+    - ./book-a-secure-move/system.yaml
