@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: book-a-secure-move-api-service
+  namespace: manage-a-secure-estate
+  description: BASM API
+  tags:
+    - ruby
+    - rails
+    - api
+  links:
+    - url: https://hmpps-book-secure-move-api-staging.apps.live-1.cloud-platform.service.justice.gov.uk/api-docs/index.html
+      title: Swagger docs
+      icon: dashboard
+    - url: https://dsdmoj.atlassian.net/wiki/spaces/PECS4/overview
+      title: Confluence docs
+      icon: doc
+spec:
+  type: service
+  lifecycle: production
+  owner: group:book-a-secure-move
+  providesApis:
+    - book-a-secure-move-api
+

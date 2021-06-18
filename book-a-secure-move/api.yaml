@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: book-a-secure-move-api
+  description: Book a Secure Move API
+  tags:
+    - ruby
+    - rails
+  links:
+    - url: https://github.com/ministryofjustice/hmpps-book-a-secure-move-api
+      title: GitHub Repo
+      icon: github
+spec:
+  type: openapi
+  lifecycle: production
+  owner: book-a-secure-move
+  definition: 
+    $text: https://hmpps-book-secure-move-api-staging.apps.live-1.cloud-platform.service.justice.gov.uk/api-docs/swagger.yaml

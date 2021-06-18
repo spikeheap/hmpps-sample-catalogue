@@ -6,3 +6,4 @@ metadata:
 spec:
   targets:
     - ./prisoner-content-hub-backend/cms-api.yaml
+    - ./book-a-secure-move/api.yaml
