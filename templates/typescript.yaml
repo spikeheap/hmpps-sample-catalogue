@@ -38,11 +38,9 @@ spec:
   steps:
     - id: fetch-base
       name: Fetch Base
-      action: fetch:cookiecutter
+      action: fetch:plain
       input:
         url: https://github.com/ministryofjustice/hmpps-template-typescript
-        values:
-          name: '{{ parameters.name }}'
 
     - id: fetch-docs
       name: Fetch Docs
