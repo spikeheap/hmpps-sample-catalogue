@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: prisoner-content-api
+  namespace: hmpps-supporting-prisoner-wellbeing
   description: The Prisoner Content Hub content API
   tags:
     - drupal

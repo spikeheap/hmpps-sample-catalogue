@@ -20,5 +20,5 @@ spec:
   lifecycle: production
   owner: group:book-a-secure-move
   providesApis:
-    - book-a-secure-move-api
+    - manage-a-secure-estate/book-a-secure-move-api
 
