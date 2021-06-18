@@ -2,7 +2,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: book-a-secure-move-api-service
-  namespace: manage-a-secure-estate
   description: BASM API
   tags:
     - ruby

@@ -2,7 +2,6 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: book-a-secure-move-api
-  namespace: manage-a-secure-estate
   description: Book a Secure Move API
   tags:
     - ruby
