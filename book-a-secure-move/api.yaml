@@ -15,4 +15,4 @@ spec:
   lifecycle: production
   owner: book-a-secure-move
   definition: 
-    $text: https://hmpps-book-secure-move-api-staging.apps.live-1.cloud-platform.service.justice.gov.uk/api-docs/swagger.yaml
+    $text: https://hmpps-book-secure-move-api-staging.apps.live-1.cloud-platform.service.justice.gov.uk/api-docs/v2/swagger.yaml
