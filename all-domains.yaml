@@ -6,3 +6,4 @@ metadata:
 spec:
   targets:
     - ./domains/prisoner-content-hub-domain.yaml
+    - ./domains/prisoner-movement-domain.yaml

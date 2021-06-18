@@ -18,6 +18,7 @@ spec:
   type: service
   lifecycle: production
   owner: group:book-a-secure-move
+  system: book-a-secure-move
   providesApis:
     - manage-a-secure-estate/book-a-secure-move-api
 
