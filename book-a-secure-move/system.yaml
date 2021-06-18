@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: Book a Secure Move
+  name: book-a-secure-move
   description: Booking and record keeping for secure movements of prisoners between locations (e.g. court to prison)
 spec:
   owner: book-a-secure-move-team
