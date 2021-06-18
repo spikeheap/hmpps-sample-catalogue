@@ -19,7 +19,6 @@ spec:
   type: service
   lifecycle: production
   owner: group:book-a-secure-move
-  domain: prisoner-movement
   providesApis:
     - manage-a-secure-estate/book-a-secure-move-api
 
